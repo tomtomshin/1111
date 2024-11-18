@@ -24,7 +24,7 @@ def communicate():
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": "Hello, how can I use this API?"}
     ]
-)
+    )
 
     bot_message = response["choices"][0]["message"]
     messages.append(bot_message)
